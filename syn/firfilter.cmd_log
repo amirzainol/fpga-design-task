@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/mohd/___job/Company/V-Nova/fpga-design-task/syn/proj/firfilter.xst" -ofn "C:/mohd/___job/Company/V-Nova/fpga-design-task/syn/proj/firfilter.syr" 
+xst -intstyle ise -ifn "C:/mohd/___job/Company/V-Nova/fpga-design-task/syn/proj/firfilter.xst" -ofn "C:/mohd/___job/Company/V-Nova/fpga-design-task/syn/proj/firfilter.syr" 
+xst -intstyle ise -ifn "C:/mohd/___job/Company/V-Nova/fpga-design-task/syn/proj/firfilter.xst" -ofn "C:/mohd/___job/Company/V-Nova/fpga-design-task/syn/proj/firfilter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 firfilter.ngc firfilter.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o firfilter_map.ncd firfilter.ngd firfilter.pcf 
+par -w -intstyle ise -ol high -mt off firfilter_map.ncd firfilter.ncd firfilter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml firfilter.twx firfilter.ncd -o firfilter.twr firfilter.pcf 
