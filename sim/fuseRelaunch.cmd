@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation_isim_beh.exe" -prj "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation_beh.prj" "work.tb_simulation" "work.glbl" 

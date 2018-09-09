@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation_isim_beh.exe -prj C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation_beh.prj work.tb_simulation work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/image_write.v" into library work
+Analyzing Verilog file "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/image_read.v" into library work
+WARNING:HDLCompiler:693 - "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/image_read.v" Line 38: Parameter declaration becomes local in image_read with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/image_read.v" Line 39: Parameter declaration becomes local in image_read with formal parameter declaration list
+Analyzing Verilog file "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/firfilter.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161544 KB
+Fuse CPU Usage: 312 ms
+Compiling module image_read_default
+Compiling module image_write
+Compiling module tb_simulation
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture rtl of entity firfilter [firfilter_default]
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Compiled 4 Verilog Units
+Built simulation executable C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation_isim_beh.exe
+Fuse Memory Usage: 184492 KB
+Fuse CPU Usage: 656 ms

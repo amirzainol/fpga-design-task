@@ -1,0 +1,15 @@
+ISim log file
+Running: C:\mohd\___job\Company\V-Nova\fpga-design-task\sim\tb_simulation_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/mohd/___job/Company/V-Nova/fpga-design-task/sim/tb_simulation_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 50 ns(1), Instance /tb_simulation/u_image_read/firlpf/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# restart
+# run 50ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
